@@ -12,8 +12,7 @@ export default function Hero() {
     <section className="relative isolate min-h-[calc(100svh-4rem)] overflow-hidden bg-ink md:min-h-[calc(100svh-4.5rem)]">
       <img src={heroMobileBg} alt="" aria-hidden="true" className="absolute inset-0 -z-20 h-full w-full object-cover md:hidden" />
       <img src={heroBg} alt="" aria-hidden="true" className="absolute inset-0 -z-20 hidden h-full w-full object-cover md:block" />
-      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-ink/90 via-ink/65 to-ink/10" />
-      <div className="absolute inset-0 -z-10 bg-ink/10" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-ink/50 via-ink/20 to-transparent" />
       <Container className="relative grid min-h-[calc(100svh-4rem)] items-start gap-10 py-10 md:min-h-[calc(100svh-4.5rem)] md:grid-cols-2 md:items-center md:gap-12 md:py-20 lg:py-24">
         <div className="animate-[fade-up_0.6s_ease-out_both] md:pt-0">
           <h1 className="font-display text-[2.5rem] font-extrabold leading-[1.02] tracking-tight text-white sm:text-5xl lg:text-6xl">
